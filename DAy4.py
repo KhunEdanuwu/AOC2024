@@ -1,3 +1,8 @@
+# Bonnes idées des solutions vu:
+# Pas besoin de U, UR et UL (useless) vu que l'on parcourt de haut en bas => Enregardant vers le haut on verra que SAMX ^^ (PArt1) 
+#
+# On pourrait avoir une recherche fixe et ensuite une rotation de la grid pour les orientations que l'on veut
+
 # Wrap the grid  lines = ['....' + line + '....' for line in lines]
 
 with open("input/Day4.txt") as f:
